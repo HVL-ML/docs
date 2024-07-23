@@ -1,0 +1,6 @@
+[book]
+authors = ["Emil Lindfors"]
+language = "en"
+multilingual = false
+src = "src"
+title = "HVL AI Dev Docs"
