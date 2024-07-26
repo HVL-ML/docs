@@ -3,4 +3,5 @@
 [Introduction](./Introduction.md)
 
 - [Getting Started](./getting-started.md)
-- [Azure](./azure.md)
+- [Backend](./backend.md)
+- [Frontend](./frontend.md)

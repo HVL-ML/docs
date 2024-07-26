@@ -11,7 +11,7 @@ Meta Llama 3.1 is deployed and accessible at this address:
 https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com
 ```
 
-You can access the completions api here: [/chat/completions](https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/chat/completions) or alternatively here: [/v1/chat/completions](https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/v1/chat/completions)
+You can access the completions api here: [/chat/completions](https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/chat/completions) or alternatively here: [/v1/chat/completions](https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/)
 
 ## Mistral Large V2
 
