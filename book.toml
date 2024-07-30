@@ -5,7 +5,11 @@ multilingual = false
 src = "src"
 title = "HVL AI Dev Docs"
 
-[preprocessor.links]
+[rust]
+edition = "2021"
+
+[build]
+extra-watch-dirs = ["po"]
 
 [preprocessor.gettext]
 after = ["links"]
@@ -20,6 +24,7 @@ smart-punctuation = true
 additional-css = [
   "theme/css/language-picker.css",
 ]
+site-url = "/docs/"
 git-repository-url = "https://github.com/HVL-ML/docs"
 edit-url-template = "https://github.com/HVL-ML/docs/edit/main/{path}"
 

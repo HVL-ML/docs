@@ -1,0 +1,11 @@
+translation:
+  - changed-files:
+      - any-glob-to-any-file: po/*.po
+
+"translation/nb":
+  - changed-files:
+      - any-glob-to-any-file: po/nb.po
+
+"translation/nn":
+  - changed-files:
+      - any-glob-to-any-file: po/nn.po
