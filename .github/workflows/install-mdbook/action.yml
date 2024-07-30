@@ -10,7 +10,7 @@ runs:
       uses: cargo-bins/cargo-binstall@main
 
     - name: Install mdbook
-      run: cargo binstall mdbook --locked --version 0.4.37
+      run: cargo binstall mdbook --locked --version 0.4.37 --no-confirm
       shell: bash
 
     #- name: Install mdbook-svgbob
@@ -27,9 +27,9 @@ runs:
     #  shell: bash
 
     - name: Install mdbook-i18n-helpers
-      run: cargo binstall mdbook-i18n-helpers --locked --version 0.3.3
+      run: cargo binstall mdbook-i18n-helpers --locked --version 0.3.3 --no-confirm
       shell: bash
 
     - name: Install i18n-report
-      run: cargo binstall i18n-report --locked --version 0.2.0
+      run: cargo binstall i18n-report --locked --version 0.2.0 --no-confirm
       shell: bash
