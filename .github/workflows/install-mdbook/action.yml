@@ -6,11 +6,12 @@ runs:
   using: composite
   
   steps:
-    - name: Install mdbook
+    - name: Install cargo-binstall
       uses: cargo-bins/cargo-binstall@main
-      with:
-        crate: mdbook
-        version: 0.4.37
+
+    - name: Install mdbook
+      run: cargo binstall mdbook --locked --version 0.4.37
+      shell: bash
 
     #- name: Install mdbook-svgbob
     #  run: cargo install mdbook-svgbob --locked --version 0.2.1
@@ -26,9 +27,9 @@ runs:
     #  shell: bash
 
     - name: Install mdbook-i18n-helpers
-      run: cargo install mdbook-i18n-helpers --locked --version 0.3.3
+      run: cargo binstall mdbook-i18n-helpers --locked --version 0.3.3
       shell: bash
 
     - name: Install i18n-report
-      run: cargo install i18n-report --locked --version 0.2.0
+      run: cargo binstall i18n-report --locked --version 0.2.0
       shell: bash
