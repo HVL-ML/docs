@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: HVL AI Dev Docs\n"
-"POT-Creation-Date: 2024-07-29T14:00:06+02:00\n"
+"POT-Creation-Date: 2024-07-30T11:02:33+02:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 msgid "Summary"
 msgstr "Sammendrag"
 
-#: src\SUMMARY.md
+#: src\SUMMARY.md src\Introduction.md
 msgid "Introduction"
 msgstr "Introduksjon"
 
@@ -33,8 +33,96 @@ msgid "Frontend"
 msgstr "Frontend"
 
 #: src\Introduction.md
-msgid "Test"
-msgstr "Test"
+msgid ""
+"Welcome to the internal documentation for the Artificial Intelligence (AI) "
+"group at HVL. This comprehensive guide is designed to provide our team "
+"members with essential information about accessing and utilizing various "
+"Large Language Model (LLM) services within our organization."
+msgstr ""
+"Velkommen til den interne dokumentasjonen for Artificial Intelligence (AI)-"
+"gruppen ved HVL. Denne omfattende guiden er utformet for å gi våre "
+"teammedlemmer essensiell informasjon om tilgang til og bruk av ulike Large "
+"Language Model (LLM)-tjenester innenfor vår organisasjon."
+
+#: src\Introduction.md
+msgid "Purpose of This Documentation"
+msgstr "Formålet med denne dokumentasjonen"
+
+#: src\Introduction.md
+msgid "The primary objectives of this documentation are to:"
+msgstr "Hovedmålene med denne dokumentasjonen er å:"
+
+#: src\Introduction.md
+msgid "Streamline access to LLM services"
+msgstr "Effektivisere tilgangen til LLM-tjenester"
+
+#: src\Introduction.md
+msgid "Provide clarity on deployment locations and configurations"
+msgstr "Gi klarhet om distribusjonssteder og konfigurasjoner"
+
+#: src\Introduction.md
+msgid "Ensure consistent usage across projects and teams"
+msgstr "Sikre konsistent bruk på tvers av prosjekter og team"
+
+#: src\Introduction.md
+msgid "Facilitate onboarding of new team members"
+msgstr "Lette onboarding av nye teammedlemmer"
+
+#: src\Introduction.md
+msgid "Serve as a reference for best practices and troubleshooting"
+msgstr "Fungere som en referanse for beste praksis og feilsøking"
+
+#: src\Introduction.md
+msgid "What You'll Find Here"
+msgstr "Hva du finner her"
+
+#: src\Introduction.md
+msgid "This documentation covers:"
+msgstr "Denne dokumentasjonen dekker:"
+
+#: src\Introduction.md
+msgid "Detailed instructions for accessing different LLM services"
+msgstr "Detaljerte instruksjoner for tilgang til ulike LLM-tjenester"
+
+#: src\Introduction.md
+msgid "Information on deployment environments (e.g., cloud, on-premises)"
+msgstr "Informasjon om distribusjonsmiljøer (f.eks. sky, på stedet)"
+
+#: src\Introduction.md
+msgid "Configuration guidelines and best practices"
+msgstr "Retningslinjer for konfigurasjon og beste praksis"
+
+#: src\Introduction.md
+msgid "Authentication and security protocols"
+msgstr "Autentiserings- og sikkerhetsprotokoll"
+
+#: src\Introduction.md
+msgid "API documentation and usage examples"
+msgstr "API-dokumentasjon og brukseksempler"
+
+#: src\Introduction.md
+msgid "Troubleshooting tips and known issues"
+msgstr "Tips for feilsøking og kjente problemer"
+
+#: src\Introduction.md
+msgid ""
+"We encourage all team members to familiarize themselves with this "
+"documentation and to contribute to its ongoing improvement. If you notice "
+"any discrepancies or have suggestions for additions, please don't hesitate "
+"to reach out to the documentation maintenance team."
+msgstr ""
+"Vi oppfordrer alle teammedlemmer til å gjøre seg kjent med denne "
+"dokumentasjonen og til å bidra til dens kontinuerlige forbedring. Hvis du "
+"oppdager uoverensstemmelser eller har forslag til tilføyelser, ikke nøl med "
+"å ta kontakt med dokumentasjonsvedlikeholdsteamet."
+
+#: src\Introduction.md
+msgid ""
+"Let's leverage our collective knowledge to drive innovation and excellence "
+"in AI at HVL!"
+msgstr ""
+"La oss utnytte vår kollektive kunnskap for å drive innovasjon og "
+"fremragenhet innen AI ved HVL!"
 
 #: src\backend.md
 msgid "Avaliable Models for testing on HVL Azure cloud"
@@ -229,3 +317,6 @@ msgstr ""
 "}]`\n"
 "MONGODB_URL=mongodb://localhost:27017\n"
 "```"
+
+#~ msgid "Test"
+#~ msgstr "Test"

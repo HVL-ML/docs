@@ -1,11 +1,13 @@
-
+build:
+    MDBOOK_OUTPUT='{"xgettext": {"depth": "1"}}'
+    mdbook build -d po
 
 # Define a recipe named 'build'
-build:
-    MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}'
-    mdbook build -d po
-    mkdir -p book
-    mv po/html book/html
+#build:
+#    MDBOOK_OUTPUT='{"xgettext": {"depth": "1"}}'
+#    mdbook build -d po
+#    mkdir -p book
+#    mv po/html book/html
 
 update lang:
     msgmerge --update po/{lang}}.po po/messages.pot
