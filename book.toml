@@ -4,3 +4,25 @@ language = "en"
 multilingual = false
 src = "src"
 title = "HVL AI Dev Docs"
+
+[preprocessor.links]
+
+[preprocessor.gettext]
+after = ["links"]
+
+[output.xgettext]
+optional = true
+pot-file = "messages.pot"
+granularity = 0
+
+[output.html]
+smart-punctuation = true
+additional-css = [
+  "theme/css/language-picker.css",
+]
+git-repository-url = "https://github.com/HVL-ML/docs"
+edit-url-template = "https://github.com/HVL-ML/docs/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 0
