@@ -28,12 +28,12 @@ else
     # in sync with the source files, not the translation.
     export MDBOOK_BOOK__LANGUAGE=$book_lang
     export MDBOOK_OUTPUT__HTML__SITE_URL=/hvl-ml.github.io/docs/$book_lang/
-    export MDBOOK_OUTPUT__HTML__REDIRECT='{}'
+    # export MDBOOK_OUTPUT__HTML__REDIRECT='{}'
 
     # Include language-specific Pandoc configuration
-    if [ -f ".github/pandoc/$book_lang.yaml" ]; then
-        export MDBOOK_OUTPUT__PANDOC__PROFILE__PDF__DEFAULTS=".github/pandoc/$book_lang.yaml"
-    fi
+   # if [ -f ".github/pandoc/$book_lang.yaml" ]; then
+   #     export MDBOOK_OUTPUT__PANDOC__PROFILE__PDF__DEFAULTS=".github/pandoc/$book_lang.yaml"
+   # fi
 fi
 
 # Enable mdbook-pandoc to build PDF version of the course

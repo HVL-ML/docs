@@ -10,6 +10,11 @@ title = "HVL AI Dev Docs"
 [preprocessor.gettext]
 after = ["links"]
 
+[preprocessor.svgbob]
+renderers = ["html"]
+after = ["gettext"]
+class = "bob"
+
 [output.xgettext]
 optional = true
 pot-file = "messages.pot"
