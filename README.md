@@ -24,5 +24,5 @@ mdbook serve --open
 
 
 ## now also with multilingual support 
-
-You can view the report here: [translation-report](https://hvl-ml.github.io/docs/translation-report.html)
+Get started: [translations](TRANSLATIONS.md)
+You can view the report here: [translation-report](https://hvl-ml.github.io/docs/synced-translation-report.html)
