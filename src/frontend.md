@@ -23,17 +23,17 @@ MODELS= `[{
   "displayName": "Meta-Llama-3-1-405B-Instruct",
  "chatPromptTemplate": "<s>[INST] <<SYS>>\n{{preprompt}}\n<</SYS>>\n\n{{#each messages}}{{#ifUser}}{{content}} [/INST] {{/ifUser}}{{#ifAssistant}}{{content}} </s><s>[INST] {{/ifAssistant}}{{/each}}",
   "endpoints": [{
-     "url": "https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com",
-     "type": "openai",
-     "authorization": "Bearer YOUR_API_KEY",
+      "type" : "openai",
+      "baseURL": "https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/v1",
+     "apiKey": "YOUR_API_KEY",
   }]},{
     "name": "Mistral-large-2407",
   "displayName": "Mistral-large-2407",
   "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}} {{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s> {{/ifAssistant}}{{/each}}",
   "endpoints": [{
-     "url": "https://Mistral-large-2407-kfedo.eastus2.models.ai.azure.com",
+     "url": "https://Mistral-large-2407-kfedo.eastus2.models.ai.azure.com/v1",
      "type": "openai",
-     "authorization": "Bearer YOUR_API_KEY",
+     "apiKey": "YOUR_API_KEY",
   }]
 }]`
 MONGODB_URL=mongodb://localhost:27017

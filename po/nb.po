@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HVL AI Dev Docs\n"
+"POT-Creation-Date: 2024-07-29T14:00:06+02:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: src\SUMMARY.md
+msgid "Summary"
+msgstr "Sammendrag"
+
+#: src\SUMMARY.md
+msgid "Introduction"
+msgstr "Introduksjon"
+
+#: src\SUMMARY.md
+msgid "Getting Started"
+msgstr "Kom i gang"
+
+#: src\SUMMARY.md
+msgid "Backend"
+msgstr "Backend"
+
+#: src\SUMMARY.md
+msgid "Frontend"
+msgstr "Frontend"
+
+#: src\Introduction.md
+msgid "Test"
+msgstr "Test"
+
+#: src\backend.md
+msgid "Avaliable Models for testing on HVL Azure cloud"
+msgstr "Modeller som kan testes på HVL Azure-skyen"
+
+#: src\backend.md
+msgid ""
+"Note that you will need a key to access these APIs. You can aquire a key by "
+"contact an admin."
+msgstr ""
+"Merk at du trenger en nøkkel for å få tilgang til disse API-ene. Du kan "
+"skaffe deg en nøkkel ved å kontakte en administrator."
+
+#: src\backend.md
+msgid "Meta Llama 3.1"
+msgstr "Meta Llama 3.1"
+
+#: src\backend.md
+msgid ""
+"The Meta Llama 3.1 collection of multilingual large language models (LLMs) "
+"is a collection of pretrained and instruction tuned generative models in 8B, "
+"70B and 405B sizes (text in/text out). The Llama 3.1 instruction tuned text "
+"only models (8B, 70B, 405B) are optimized for multilingual dialogue use "
+"cases and outperform many of the available open source and closed chat "
+"models on common industry benchmarks.[1](https://huggingface.co/meta-llama/"
+"Meta-Llama-3.1-405B-Instruct)"
+msgstr ""
+"Meta Llama 3.1-samlingen av flerspråklige store språkmodeller (LLM-er) er en "
+"samling av forhåndstrenede og instruksjonsinnstilte generative modeller i "
+"størrelsene 8B, 70B og 405B (tekst inn/tekst ut). Llama 3.1-"
+"instruksjonsjusterte tekstmodeller (8B, 70B, 405B) er optimalisert for "
+"flerspråklige dialoger og utkonkurrerer mange av de tilgjengelige åpne "
+"kildekodemodellene og lukkede chat-modellene på vanlige bransjereferanser[1]"
+"(https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct)"
+
+#: src\backend.md
+msgid "Meta Llama 3.1 is deployed and accessible at this address:"
+msgstr "Meta Llama 3.1 er distribuert og tilgjengelig på denne adressen:"
+
+#: src\backend.md
+msgid ""
+"You can access the completions api here: [/chat/completions](https://Meta-"
+"Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/chat/completions) or "
+"alternatively here: [/v1/chat/completions](https://Meta-Llama-3-1-405B-"
+"Instruct-nvn.eastus2.models.ai.azure.com/)"
+msgstr ""
+"Du kan få tilgang til fullførings-APIet her: [/chat/completions](https://"
+"Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/chat/"
+"completions) eller alternativt her: [/v1/chat/completions](https://Meta-"
+"Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/)"
+
+#: src\backend.md
+msgid ""
+"[pricing](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/"
+"metagenai.meta-llama-3-1-405b-instruct-offer?tab=PlansAndPrice):"
+msgstr ""
+"[pris](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/"
+"metagenai.meta-llama-3-1-405b-instruct-offer?tab=PlansAndPrice):"
+
+#: src\backend.md
+msgid ""
+"Input Tokens: $0.00533 per 1000 tokens Output Tokens: $0.016 per 1000 tokens "
+"Cost per 1m I/O tokens: $21.3"
+msgstr ""
+"Input tokens: $0,00533 per 1000 tokens Output tokens: $0,016 per 1000 tokens "
+"Kostnad per 1m I/O tokens: $21,3"
+
+#: src\backend.md
+msgid "Mistral Large V2"
+msgstr "Mistral Large V2"
+
+#: src\backend.md
+msgid ""
+"You can access the completions api here: [/chat/completions](https://Mistral-"
+"large-2407-kfedo.eastus2.models.ai.azure.com/chat/completions) or "
+"alternatively here: [/v1/chat/completions](https://Mistral-large-2407-kfedo."
+"eastus2.models.ai.azure.com/v1/chat/completions)"
+msgstr ""
+"Du kan få tilgang til fullførings-APIet her: [/chat/completions](https://"
+"Mistral-large-2407-kfedo.eastus2.models.ai.azure.com/chat/completions) eller "
+"alternativt her: [/v1/chat/completions](https://Mistral-large-2407-kfedo."
+"eastus2.models.ai.azure.com/v1/chat/completions)"
+
+#: src\backend.md
+msgid ""
+"[pricing](https://azuremarketplace.microsoft.com/en-us/marketplace/"
+"apps/000-000.mistral-ai-large-2407-offer?tab=PlansAndPrice):"
+msgstr ""
+"[pris](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/000-000."
+"mistral-ai-large-2407-offer?tab=PlansAndPrice):"
+
+#: src\backend.md
+msgid ""
+"Input Tokens: $0.009 per 1000 tokens Output Tokens: $0.003 per 1000 tokens "
+"Cost per 1m I/O tokens: $11"
+msgstr ""
+"Input tokens: $0,009 per 1000 tokens Output tokens: $0,003 per 1000 tokens "
+"Kostnad per 1m I/O tokens: $11"
+
+#: src\frontend.md
+msgid "Getting started with hugging chat"
+msgstr "Kom i gang med Hugging Chat"
+
+#: src\frontend.md
+msgid "Clone the repo and install using npm, pnpm or bun:"
+msgstr "Klon repoen og installer med npm, pnpm eller bun:"
+
+#: src\frontend.md
+msgid ""
+"```\n"
+"git clone https://github.com/HVL-ML/chat-ui\n"
+"cd chat-ui\n"
+"npm install\n"
+"npm run dev -- --open\n"
+"```"
+msgstr ""
+"```\n"
+"git clone https://github.com/HVL-ML/chat-ui\n"
+"cd chat-ui\n"
+"npm install\n"
+"npm run dev -- --open\n"
+"```"
+
+#: src\frontend.md
+msgid "Make sure a mongodb instance is running:"
+msgstr "Sørg for at en mongodb-instans kjører:"
+
+#: src\frontend.md
+msgid ""
+"Create an .env.local in the root with the following information (Make sure "
+"to replace `YOUR_API_KEY` with a real key):"
+msgstr ""
+"Opprett en .env.local i roten med følgende informasjon (sørg for å erstatte "
+"`YOUR_API_KEY` med en ekte nøkkel):"
+
+#: src\frontend.md
+msgid ""
+"```env\n"
+"MODELS= `[{\n"
+"  \"name\": \"Meta-Llama-3-1-405B-Instruct\",\n"
+"  \"displayName\": \"Meta-Llama-3-1-405B-Instruct\",\n"
+" \"chatPromptTemplate\": \"<s>[INST] <<SYS>>\\n{{preprompt}}\\n<</"
+"SYS>>\\n\\n{{#each messages}}{{#ifUser}}{{content}} [/INST] {{/ifUser}}"
+"{{#ifAssistant}}{{content}} </s><s>[INST] {{/ifAssistant}}{{/each}}\",\n"
+"  \"endpoints\": [{\n"
+"      \"type\" : \"openai\",\n"
+"      \"baseURL\": \"https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models."
+"ai.azure.com/v1\",\n"
+"     \"apiKey\": \"YOUR_API_KEY\",\n"
+"  }]},{\n"
+"    \"name\": \"Mistral-large-2407\",\n"
+"  \"displayName\": \"Mistral-large-2407\",\n"
+"  \"chatPromptTemplate\": \"<s>{{#each messages}}{{#ifUser}}[INST] {{#if "
+"@first}}{{#if @root.preprompt}}{{@root.preprompt}}\\n{{/if}}{{/if}} "
+"{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s> {{/"
+"ifAssistant}}{{/each}}\",\n"
+"  \"endpoints\": [{\n"
+"     \"url\": \"https://Mistral-large-2407-kfedo.eastus2.models.ai.azure.com/"
+"v1\",\n"
+"     \"type\": \"openai\",\n"
+"     \"apiKey\": \"YOUR_API_KEY\",\n"
+"  }]\n"
+"}]`\n"
+"MONGODB_URL=mongodb://localhost:27017\n"
+"```"
+msgstr ""
+"```env\n"
+"MODELS= `[{\n"
+"  \"name\": \"Meta-Llama-3-1-405B-Instruct\",\n"
+"  \"displayName\": \"Meta-Llama-3-1-405B-Instruct\",\n"
+" \"chatPromptTemplate\": \"<s>[INST] <<SYS>>\\n{{preprompt}}\\n<</"
+"SYS>>\\n\\n{{#each messages}}{{#ifUser}}{{content}} [/INST] {{/ifUser}}"
+"{{#ifAssistant}}{{content}} </s><s>[INST] {{/ifAssistant}}{{/each}}\",\n"
+"  \"endpoints\": [{\n"
+"      \"type\" : \"openai\",\n"
+"      \"baseURL\": \"https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models."
+"ai.azure.com/v1\",\n"
+"     \"apiKey\": \"YOUR_API_KEY\",\n"
+"  }]},{\n"
+"    \"name\": \"Mistral-large-2407\",\n"
+"  \"displayName\": \"Mistral-large-2407\",\n"
+"  \"chatPromptTemplate\": \"<s>{{#each messages}}{{#ifUser}}[INST] {{#if "
+"@first}}{{#if @root.preprompt}}{{@root.preprompt}}\\n{{/if}}{{/if}} "
+"{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s> {{/"
+"ifAssistant}}{{/each}}\",\n"
+"  \"endpoints\": [{\n"
+"     \"url\": \"https://Mistral-large-2407-kfedo.eastus2.models.ai.azure.com/"
+"v1\",\n"
+"     \"type\": \"openai\",\n"
+"     \"apiKey\": \"YOUR_API_KEY\",\n"
+"  }]\n"
+"}]`\n"
+"MONGODB_URL=mongodb://localhost:27017\n"
+"```"
