@@ -1,4 +1,3 @@
-
 msgid ""
 msgstr ""
 "Project-Id-Version: HVL AI Dev Docs\n"
@@ -6,15 +5,16 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: src\SUMMARY.md
 msgid "Summary"
-msgstr ""
+msgstr "Sammendrag"
 
 #: src\SUMMARY.md
 msgid "Introduction"
@@ -41,9 +41,7 @@ msgid "Avaliable Models for testing on HVL Azure cloud"
 msgstr ""
 
 #: src\backend.md
-msgid ""
-"Note that you will need a key to access these APIs. You can aquire a key by "
-"contact an admin."
+msgid "Note that you will need a key to access these APIs. You can aquire a key by contact an admin."
 msgstr ""
 
 #: src\backend.md
@@ -52,13 +50,11 @@ msgstr ""
 
 #: src\backend.md
 msgid ""
-"The Meta Llama 3.1 collection of multilingual large language models (LLMs) "
-"is a collection of pretrained and instruction tuned generative models in 8B, "
-"70B and 405B sizes (text in/text out). The Llama 3.1 instruction tuned text "
-"only models (8B, 70B, 405B) are optimized for multilingual dialogue use "
-"cases and outperform many of the available open source and closed chat "
-"models on common industry "
-"benchmarks.[1](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct)"
+"The Meta Llama 3.1 collection of multilingual large language models (LLMs) is a collection of pretrained "
+"and instruction tuned generative models in 8B, 70B and 405B sizes (text in/text out). The Llama 3.1 "
+"instruction tuned text only models (8B, 70B, 405B) are optimized for multilingual dialogue use cases and "
+"outperform many of the available open source and closed chat models on common industry benchmarks.[1]"
+"(https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct)"
 msgstr ""
 
 #: src\backend.md
@@ -67,21 +63,20 @@ msgstr ""
 
 #: src\backend.md
 msgid ""
-"You can access the completions api here: "
-"[/chat/completions](https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/chat/completions) "
-"or alternatively here: "
-"[/v1/chat/completions](https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/)"
+"You can access the completions api here: [/chat/completions](https://Meta-Llama-3-1-405B-Instruct-nvn."
+"eastus2.models.ai.azure.com/chat/completions) or alternatively here: [/v1/chat/completions](https://Meta-"
+"Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/)"
 msgstr ""
 
 #: src\backend.md
 msgid ""
-"[pricing](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-1-405b-instruct-offer?tab=PlansAndPrice):"
+"[pricing](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-1-405b-"
+"instruct-offer?tab=PlansAndPrice):"
 msgstr ""
 
 #: src\backend.md
 msgid ""
-"Input Tokens: $0.00533 per 1000 tokens Output Tokens: $0.016 per 1000 tokens "
-"Cost per 1m I/O tokens: $21.3"
+"Input Tokens: $0.00533 per 1000 tokens Output Tokens: $0.016 per 1000 tokens Cost per 1m I/O tokens: $21.3"
 msgstr ""
 
 #: src\backend.md
@@ -90,21 +85,20 @@ msgstr ""
 
 #: src\backend.md
 msgid ""
-"You can access the completions api here: "
-"[/chat/completions](https://Mistral-large-2407-kfedo.eastus2.models.ai.azure.com/chat/completions) "
-"or alternatively here: "
-"[/v1/chat/completions](https://Mistral-large-2407-kfedo.eastus2.models.ai.azure.com/v1/chat/completions)"
+"You can access the completions api here: [/chat/completions](https://Mistral-large-2407-kfedo.eastus2."
+"models.ai.azure.com/chat/completions) or alternatively here: [/v1/chat/completions](https://Mistral-"
+"large-2407-kfedo.eastus2.models.ai.azure.com/v1/chat/completions)"
 msgstr ""
 
 #: src\backend.md
 msgid ""
-"[pricing](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/000-000.mistral-ai-large-2407-offer?tab=PlansAndPrice):"
+"[pricing](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/000-000.mistral-ai-large-2407-"
+"offer?tab=PlansAndPrice):"
 msgstr ""
 
 #: src\backend.md
 msgid ""
-"Input Tokens: $0.009 per 1000 tokens Output Tokens: $0.003 per 1000 tokens "
-"Cost per 1m I/O tokens: $11"
+"Input Tokens: $0.009 per 1000 tokens Output Tokens: $0.003 per 1000 tokens Cost per 1m I/O tokens: $11"
 msgstr ""
 
 #: src\frontend.md
@@ -131,8 +125,8 @@ msgstr ""
 
 #: src\frontend.md
 msgid ""
-"Create an .env.local in the root with the following information (Make sure "
-"to replace `YOUR_API_KEY` with a real key):"
+"Create an .env.local in the root with the following information (Make sure to replace `YOUR_API_KEY` with "
+"a real key):"
 msgstr ""
 
 #: src\frontend.md
@@ -141,28 +135,20 @@ msgid ""
 "MODELS= `[{\n"
 "  \"name\": \"Meta-Llama-3-1-405B-Instruct\",\n"
 "  \"displayName\": \"Meta-Llama-3-1-405B-Instruct\",\n"
-" \"chatPromptTemplate\": \"<s>[INST] <<SYS>>\\n"
-"{{preprompt}}\\n"
-"<</SYS>>\\n"
-"\\n"
-"{{#each messages}}{{#ifUser}}{{content}} [/INST] "
-"{{/ifUser}}{{#ifAssistant}}{{content}} </s><s>[INST] "
-"{{/ifAssistant}}{{/each}}\",\n"
+" \"chatPromptTemplate\": \"<s>[INST] <<SYS>>\\n{{preprompt}}\\n<</SYS>>\\n\\n{{#each messages}}{{#ifUser}}"
+"{{content}} [/INST] {{/ifUser}}{{#ifAssistant}}{{content}} </s><s>[INST] {{/ifAssistant}}{{/each}}\",\n"
 "  \"endpoints\": [{\n"
 "      \"type\" : \"openai\",\n"
-"      \"baseURL\": "
-"\"https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/v1\",\n"
+"      \"baseURL\": \"https://Meta-Llama-3-1-405B-Instruct-nvn.eastus2.models.ai.azure.com/v1\",\n"
 "     \"apiKey\": \"YOUR_API_KEY\",\n"
 "  }]},{\n"
 "    \"name\": \"Mistral-large-2407\",\n"
 "  \"displayName\": \"Mistral-large-2407\",\n"
-"  \"chatPromptTemplate\": \"<s>{{#each messages}}{{#ifUser}}[INST] {{#if "
-"@first}}{{#if @root.preprompt}}{{@root.preprompt}}\\n"
-"{{/if}}{{/if}} {{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s> "
-"{{/ifAssistant}}{{/each}}\",\n"
+"  \"chatPromptTemplate\": \"<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}"
+"{{@root.preprompt}}\\n{{/if}}{{/if}} {{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s> {{/"
+"ifAssistant}}{{/each}}\",\n"
 "  \"endpoints\": [{\n"
-"     \"url\": "
-"\"https://Mistral-large-2407-kfedo.eastus2.models.ai.azure.com/v1\",\n"
+"     \"url\": \"https://Mistral-large-2407-kfedo.eastus2.models.ai.azure.com/v1\",\n"
 "     \"type\": \"openai\",\n"
 "     \"apiKey\": \"YOUR_API_KEY\",\n"
 "  }]\n"
@@ -170,4 +156,3 @@ msgid ""
 "MONGODB_URL=mongodb://localhost:27017\n"
 "```"
 msgstr ""
-

@@ -21,3 +21,8 @@ Then use the serve command, which will build your book and start a local webserv
 ```bash
 mdbook serve --open
 ```
+
+
+## now also with multilingual support 
+
+You can view the report here: [translation-report](https://hvl-ml.github.io/docs/translation-report.html)
