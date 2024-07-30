@@ -6,19 +6,15 @@ runs:
   using: composite
   
   steps:
-    - name: Install cargo-binstall
-        shell: bash
-        run: curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
-
-    # The --locked flag is important for reproducible builds. It also
-    # avoids breakage due to skews between mdbook and mdbook-svgbob.
     - name: Install mdbook
-      run: cargo binstall mdbook --locked --version 0.4.37
-      shell: bash
+      uses: cargo-bins/cargo-binstall@main
+      with:
+        crate: mdbook
+        version: 0.4.37
 
-    - name: Install mdbook-svgbob
-      run: cargo binstall mdbook-svgbob --locked --version 0.2.1
-      shell: bash
+    #- name: Install mdbook-svgbob
+    #  run: cargo install mdbook-svgbob --locked --version 0.2.1
+    #  shell: bash
 
     #- name: Install mdbook-pandoc and related dependencies
     #  run: |
